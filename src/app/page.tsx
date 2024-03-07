@@ -93,7 +93,7 @@ const Home = () => {
             className="Card"
             style={{
               backgroundColor:
-                namazVaqti.day === new Date().getDate() ? "lightgreen" : "",
+                namazVaqti.day === new Date().getDate() ? "green" : "",
             }}
           >
             <p>
