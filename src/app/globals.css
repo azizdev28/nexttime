@@ -1,0 +1,22 @@
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.list li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: ; */
+  border: 1px solid black;
+  border-radius: 10px;
+}
